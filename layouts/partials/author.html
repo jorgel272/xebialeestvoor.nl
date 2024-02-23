@@ -1,0 +1,23 @@
+<div class="card">
+    <div class="row no-gutters">
+      <div class="col-md-2 ">
+        {{ with partial "get_image" . }}
+          {{ if not (strings.Contains $.Content $.Params.image) }}
+          <div class="card-body ">
+            <img src="{{ .RelPermalink }}" class="img-responsive img-50 img-round" alt="{{ .Params.name }}">
+          </div>
+          {{ end }}
+        {{ end }}
+      </div>
+
+      <div class="col-md-10">
+        <div class="card-body p-1.1">
+          <p class="p-0 m-0"><small class="text-muted">Voorgelezen door</small></p>
+          <p class="card-text fs-5 m-0">
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </p>
+          <p class="card-text fs-6  m-0">{{ .Params.description | safeHTML }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
