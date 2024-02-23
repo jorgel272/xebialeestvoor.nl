@@ -1,0 +1,84 @@
+{{ define "main" }}
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+
+      <div class="card-image card-image-blog p-0">
+        {{ if .Params.youtube }}
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe src="https://www.youtube.com/embed/{{ .Params.youtube }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video"></iframe>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        {{ .Content }}
+      </article>
+    </div>
+
+    {{ if .Params.books }}
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <h2>Gelezen boeken</h2>
+        <ul>
+        {{ range .Params.books }}
+          {{ if .link }}
+          <li><a href="{{ .link }}" target="_blank">{{ .name }}</a></li>
+          {{ else }}
+          <li>{{ .name }}</li>
+          {{ end }}
+        {{ end }}
+        </ul>
+      </article>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr class="m-0"/>
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-3">
+
+    {{ range .Params.authors }}
+      {{ $authorPath := printf "/authors/%s" .name }}
+      {{ with $.Site.GetPage $authorPath }}
+        {{ partial "author" .}}
+      {{ end }}
+    {{ end }}
+
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      {{ if ne .Type "page" }}
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        {{ if .PrevInSection }}
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="{{ .PrevInSection.Permalink }}"
+            data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}">&larr;
+            {{ i18n "previousPost" }}</a>
+        </li>
+        {{ end }}
+
+
+        {{ if .NextInSection }}
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="{{ .NextInSection.Permalink }}"
+            data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">{{ i18n "nextPost" }}
+            &rarr;</a>
+        </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+
+</div>
+{{ end }}

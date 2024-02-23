@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="container" role="main">
+  <div class="row">
+
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+      <div class="card-image card-image-blog p-0">
+        {{ $ := . }}
+        {{ with partial "get_image" . }}
+          {{ if not (strings.Contains $.Content $.Params.image) }}
+            <img src="{{ .RelPermalink }}" alt="{{ .Title }}" class="img-responsive img-50 img-round">
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+      <div class="card-image card-image-blog p-0">
+        <article role="main" class="blog-post">{{ .Params.description }}</article>
+        <br />
+        {{ $name := .Params.name }}
+
+        <h2>Voorgelezen op</h2>
+        <ul>
+          {{ range .Site.RegularPages }}
+            {{ if eq .Type "video" }}
+              {{ $video := . }}
+              {{ range .Params.authors }}
+                {{ if eq .name $name }}
+                  <li><a href="{{ $video.RelPermalink }}">{{ $video.LinkTitle }}</a></li>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
