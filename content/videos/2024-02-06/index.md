@@ -9,8 +9,12 @@ authors:
 youtube: HrNxGZUCDEI
 books:
   - name: Hé, wie zit er op de wc?
+    image: images/he-wie-zit-er-op-de-wc.jpg
     link: https://isbnsearch.org/isbn/9789025867676
+    description: Jorge leest Hé, wie zit er op de wc?
   - name: het verdwenen wolvenjong (disney)
-    # link:
+    image: images/het-verdwenen-wolvenjong.jpg
+    link: https://www.goodreads.com/book/show/16132635-het-verdwenen-wolfenjong
+    description: Emma leest het verdwenen wolvenjong voor van Walt Disney.
 
 ---
