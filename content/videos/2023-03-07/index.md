@@ -10,13 +10,18 @@ authors:
 youtube: D7F2vjNGjdY
 books:
   - name: Boer Boris en de Olifant
+    image: images/boer-boris-en-de-olifant.jpg
+    description: Emma leest "Boer Boris en de Olifant" voor.
     link: https://isbnsearch.org/isbn/9789025769390
   - name: Peppa gaat logeren
+    image: images/peppa-gaat-logeren.jpg
+    description: Emma leest "Peppa gaat logeren" voor.
     link: https://www.bol.com/nl/nl/p/peppa-pig-peppa-gaat-logeren/9200000087119406/
-  - name: Dikkie Dik - Paraplu
-    # link:
-  - name: Dikke Dik - Kussen
-    # link:
-  - name: de Neehoorn
+  - name: Dikkie Dik
+    image: images/dikkie-dik.jpg
+    description: Jorge leest "Paraplu" & "Kussen" voor van Dikkie Dik.
+  - name: De Neehoorn
+    image: images/de-neehoorn.jpg
+    description: Rolph leest de Neehoorn voor.
     link: https://isbnsearch.org/isbn/9789021422954
 ---

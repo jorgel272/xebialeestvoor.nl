@@ -9,14 +9,13 @@ authors:
 youtube: XRraDaWAblQ
 books:
   - name: Dikke Dik - Vogeltje
-    # link:
-  - name: Dikke Dik - Vliegles
-    # link:
-  - name: Dikke Dik - de Mol
-    # link:
+    image: images/dikkie-dik.jpg
+    description: Jorge leest vanaf Bali "Vogeltje", "Vliegles" en "De mol" voor van Dikkie Dik.
   - name: Floddertje - Schuim
-    # link:
+    description: Emma leest Schuim voor van Floddertje.
+    image: images/floddertje-schuim.jpg
   - name: Peppa pig - Peppa gaat op schoolreisje
-    # link:
+    description: Emma leest Peppa gaat op schoolreisje voor van Peppa Big.
+    image: images/peppa-big-schoolreisje.jpg
 
 ---
