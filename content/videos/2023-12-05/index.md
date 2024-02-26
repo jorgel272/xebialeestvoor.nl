@@ -9,11 +9,14 @@ authors:
   - name: emma
 youtube: m7Uk8QtVbp4
 books:
-  - name: Fien en Teun spelen sinterklaas en pietje
+  - name: Fien en Teun spelen Sinterklaas en pietje
+    image: images/fien-en-teun-sinterklaas.jpg
     link: https://isbnsearch.org/isbn/9789492901705
+    description: Jorge leest Fien en Teun spelen Sinterklaas en pietje voor.
   - name: Peppa Big - George
-    # link:
-  - name: Dikke Dik wacht op Sinterklaas
-    # link:
-
+    image: images/george.png
+    description: Emma leest George voor van Peppa Big.
+  - name: Dikkie Dik wacht op Sinterklaas
+    image: images/dikkie-dik-wacht-op-sinterklaas.jpg
+    description: Sinterklaas leest Dikkie Dik wacht op Sinterklaas voor.
 ---

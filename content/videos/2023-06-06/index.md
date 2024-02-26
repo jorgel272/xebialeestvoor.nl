@@ -9,18 +9,16 @@ authors:
   - name: emma
 youtube: f0gZm9KHErU
 books:
-  - name: Janneke - Koningin
-    # link:
-  - name: Janneke - Touw
-    # link:
-  - name: Janneke - Waterpistool
-    # link:
-  - name: Dikke Dik - een muis in de tv
-    # link:
-  - name: Dikke Dik - De Hond
-    # link:
+  - name: Janneke
+    image: images/janneke.jpg
+    description: Emma leest "Koningin", "Touw" & "Waterpistool" voor van Janneke.
+  - name: Dikkie Dik
+    image: images/dikkie-dik.jpg
+    description: Jorge leest "Een muis in de tv" and "De hond" van Dikkie Dik.
   - name: De ridder zonder billen
+    image: images/de-ridder-zonder-billen.jpg
     link: https://isbnsearch.org/isbn/9789000370368
+    description: Elsa leest de ridder zonder billen voor.
 ---
 
 ## De Elsa special!

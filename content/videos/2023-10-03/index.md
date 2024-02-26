@@ -9,8 +9,10 @@ authors:
 youtube: hRim7eBPiiA
 books:
   - name: Kietel me!
+    image: images/kietel-me.jpg
     link: https://isbnsearch.org/isbn/9789036635349
   - name: Het snelste boekje voor het slapen gaan ooit
+    image: images/het-snelste-boekje-voor-het-slapen-gaan-ooit.jpg
     # link:
 
 ---

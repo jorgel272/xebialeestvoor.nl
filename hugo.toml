@@ -1,15 +1,12 @@
 baseURL = 'https://xebialeestvoor.nl/'
-languageCode = 'nl-nl'
 title = 'Xebia - Leest voor'
 summaryLength = 25
 copyright = "Xebia Nederland - All rights reserved"
 enableEmoji = true
+defaultContentLanguage = "nl"
 
 [params]
+  selfHosted = true
   previewCardImagePlacement = "top"
   logo = "/images/logo.png"
   description = "Elke eerste XKE van de maand word er voor gelezen."
-
-[params.social]
-  github = "xebia"
-  twitter = "xebia"
