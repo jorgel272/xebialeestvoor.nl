@@ -1,0 +1,19 @@
+<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    <article role="main" class="blog-post">
+        <h2>Gelezen boeken</h2><br />
+
+        {{ range .Params.books }}
+        <div class="row mb-4">
+            <div class="col-md-2">
+                {{ if .image }}
+                <img src="{{ .image }}" alt="{{ .name }}" class="img-50">
+                {{ end }}
+            </div>
+            <div class="col-md-8">
+            <h4>{{ if .link }}<a href="{{ .link }}" target="_blank">{{ .name }}</a>{{ else}}{{ .name }}{{ end }}</h4>
+            <p>{{ .description }}</p>
+            </div>
+        </div>
+        {{ end }}
+    </article>
+</div>

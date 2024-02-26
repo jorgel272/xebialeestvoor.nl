@@ -18,22 +18,7 @@
       </article>
     </div>
 
-    {{ if .Params.books }}
-    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
-      <article role="main" class="blog-post">
-        <h2>Gelezen boeken</h2>
-        <ul>
-        {{ range .Params.books }}
-          {{ if .link }}
-          <li><a href="{{ .link }}" target="_blank">{{ .name }}</a></li>
-          {{ else }}
-          <li>{{ .name }}</li>
-          {{ end }}
-        {{ end }}
-        </ul>
-      </article>
-    </div>
-    {{ end }}
+    {{ if .Params.books }}{{ partial "books" .}}{{ end }}
   </div>
 
   <div class="row">
