@@ -10,5 +10,4 @@ hugo server -D
 
 ## TODO
 
-- [ ] Book + covers laten zien
-- [ ] Links zoeken van missende boeken
+- [ ] Optimize the images used on the site, they are not consistent
