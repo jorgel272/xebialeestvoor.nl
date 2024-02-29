@@ -8,7 +8,7 @@ authors:
   - name: emma
 youtube: XRraDaWAblQ
 books:
-  - name: Dikke Dik - Vogeltje
+  - name: Dikkie Dik
     image: images/dikkie-dik.jpg
     description: Jorge leest vanaf Bali "Vogeltje", "Vliegles" en "De mol" voor van Dikkie Dik.
   - name: Floddertje - Schuim

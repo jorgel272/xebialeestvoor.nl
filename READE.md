@@ -11,3 +11,4 @@ hugo server -D
 ## TODO
 
 - [ ] Optimize the images used on the site, they are not consistent
+- [ ] Enable search function in the theme
