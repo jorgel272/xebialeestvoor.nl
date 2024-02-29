@@ -8,7 +8,7 @@ authors:
   - name: emma
 youtube: LskfnynCOeo
 books:
-  - name: Dikkie Dik - Kattenbrokjes
+  - name: Dikkie Dik
     description: Jorge leest "Kattenbrokjes", "Twee bakjes eten" & "Het schoteltje melk" voor van Dikkie Dik
     image: images/jet-boeke-dikkie-dik-kattenbrokjes.jpg
   - name: Kikker en een heel bijzondere dag
