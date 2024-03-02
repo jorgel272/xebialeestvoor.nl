@@ -2,7 +2,7 @@
 title: Juni 2023
 type: video
 date: 2023-06-06T19:00:00+01:00
-image : "images/featured.png"
+image: images/resized_featured.png
 authors:
   - name: elsa
   - name: jorge
