@@ -198,7 +198,7 @@ img {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #ED1B2F;
+  color: #691c58;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -499,7 +499,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #ED1B2F;
+  color: #691c58;
 }
 
 .post-preview .post-title {
@@ -997,7 +997,8 @@ ul.share li:hover .fab {
 
 .navbar {
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.08);
-  background-color: rgba(255, 255, 255, .98);
+  // background-color: rgba(255, 255, 255, .98);
+  background-color: rgba(105, 28, 88, 1);
   z-index: 9999;
 }
 
@@ -1006,7 +1007,14 @@ ul.share li:hover .fab {
 }
 
 .nav-link {
-  background-color: rgba(255, 255, 255, .98);
+  // background-color: rgba(255, 255, 255, .98);
+  background-color: rgba(105, 28, 88, 1);
+  color: #FFFFFF;
+}
+
+.navbar-nav .nav-link.active {
+  color: #FFFFFF !important;
+  font-weight: bold;
 }
 
 .bg-faded-light {
