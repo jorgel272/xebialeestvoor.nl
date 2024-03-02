@@ -2,7 +2,7 @@
 title: Mei 2023
 type: video
 date: 2023-05-02T19:00:00+01:00
-image : "images/featured.jpg"
+image: images/resized_featured.jpg
 authors:
   - name: jorge
   - name: emma

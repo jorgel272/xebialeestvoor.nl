@@ -2,7 +2,7 @@
 title: Januari 2024
 type: video
 date: 2024-01-03T19:00:00+01:00
-image : "images/featured.png"
+image: images/resized_featured.png
 authors:
   - name: jorge
   - name: emma

@@ -2,7 +2,7 @@
 title: December 2023
 type: video
 date: 2023-12-05T19:00:00+01:00
-image : "images/featured.png"
+image: images/resized_featured.png
 authors:
   - name: sinterklaas
   - name: jorge

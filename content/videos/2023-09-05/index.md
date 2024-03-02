@@ -2,7 +2,7 @@
 title: September 2023
 type: video
 date: 2023-09-05T19:00:00+02:00
-image : images/featured.png
+image: images/resized_featured.png
 authors:
   - name: jorge
   - name: emma
@@ -16,3 +16,9 @@ books:
     image: images/kikker-bijzondere-dag.jpg
     description: Emma leest en heel bijzondere dag van Kikker.
 ---
+
+# Minions Editie
+
+Deze editie kon je een kleurplaat insturen.
+
+![Kleurplaat](./minions-tekening.png)

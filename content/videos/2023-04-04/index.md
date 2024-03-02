@@ -2,7 +2,7 @@
 title: April 2023
 type: video
 date: 2023-04-04T19:00:00+01:00
-image : "images/featured.webp"
+image: images/resized_featured.jpg
 authors:
   - name: elaine
   - name: jorge
