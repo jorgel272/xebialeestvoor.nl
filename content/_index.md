@@ -1,8 +1,8 @@
 ---
 image: images/xebia-leest-voor.webp
-youtube: HrNxGZUCDEI
+youtube: 1SvEAMsnJWo
 ---
 
-# Volgende sessie
+# Xebia leest voor bestaat 1 jaar!
 
-5 Maart 2024 18:30 - 19:00
+5 Maart 2024 17:00 - 18:00
