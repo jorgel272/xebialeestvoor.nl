@@ -6,7 +6,7 @@ image: images/resized_featured.png
 authors:
   - name: jorge
   - name: emma
-# youtube: ?
+youtube: RJNqqvleyaU
 # books:
 #   - name: ?
 #     link: ?
