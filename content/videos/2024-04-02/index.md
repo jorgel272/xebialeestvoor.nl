@@ -1,7 +1,7 @@
 ---
 title: April 2024
 type: video
-date: 2024-04-02T19:00:00+01:00
+date: 2024-04-02T19:00:00+02:00
 image: images/resized_featured.jpg
 authors:
   - name: barry
