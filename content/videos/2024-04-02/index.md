@@ -13,12 +13,12 @@ books:
     image: images/sjoerd-en-de-stapelstad.jpg
     description: Barry de autheur van Sjoerd en de Stapelstad leest voor uit zijn eigen boek.
     link: https://www.bol.com/nl/nl/p/sjoerd-en-de-stapelstad/9300000082292241/?bltgh=qLPyOjRgOMgWi7v8bZ9OYA.2_6.7.ProductTitle
-  - name: Boer Boris - Wij willen feest!
-    image: images/boer-boris.jpg
-    description: Jorge leest voor uit het boek van Boer Boris.
-  - name: Woezel & Pip - Lieve vriendjes
-    image: images/woezel-en-pip.jpg
-    description: Emma leest voor uit het boekje van Woezel & Pip
+  - name: Dikkie Dik - Peper
+    image: images/dikkie-dik.jpg
+    description: Jorge leest voor uit het boek van Dikkie Dik.
+  - name: Dikkie Dik - Vliegles
+    image: images/dikkie-dik.jpg
+    description: Emma leest voor uit het boekje van Dikkie Dik.
 ---
 
 Dinsdag 2 April hadden we Barry Menger te gast die voorleest uit zijn eigen boek Sjoerd en de Stapelstad. En natuurlijk zijn Emma en Jorge ook van de partij!
