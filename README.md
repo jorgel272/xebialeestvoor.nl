@@ -13,5 +13,5 @@ hugo server -D
 Resize the featured image to a smaller size. We do this to make sure all images have the same dimensions:
 
 ```shell
-find content/videos -name "featured" -exec ./generate-banner.sh {} \;
+find ./content/videos -name "featured.*" -exec ./generate-banner.sh {} \;
 ```

@@ -1,8 +1,8 @@
 ---
 image: images/xebia-leest-voor.webp
-youtube: RJNqqvleyaU
+# youtube: ???
 ---
 
-# Xebia leest voor bestaat 1 jaar!
+# Xebia leest voor!
 
-5 Maart 2024 vanaf 18:30 met Buurman en Buurman!
+Op 2 April 2024 vanaf 18:30 lezen we weer voor!
