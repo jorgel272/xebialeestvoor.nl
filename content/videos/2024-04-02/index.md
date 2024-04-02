@@ -11,7 +11,7 @@ youtube: 96W3fAx1L_8
 books:
   - name: Sjoerd en de Stapelstad
     image: images/sjoerd-en-de-stapelstad.jpg
-    description: Barry de autheur van Sjoerd en de Stapelstad leest voor uit zijn eigen boek.
+    description: Barry de auteur van Sjoerd en de Stapelstad leest voor uit zijn eigen boek.
     link: https://www.bol.com/nl/nl/p/sjoerd-en-de-stapelstad/9300000082292241/?bltgh=qLPyOjRgOMgWi7v8bZ9OYA.2_6.7.ProductTitle
   - name: Dikkie Dik - Peper
     image: images/dikkie-dik.jpg
