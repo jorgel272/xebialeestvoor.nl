@@ -7,7 +7,7 @@ authors:
   - name: barry
   - name: jorge
   - name: emma
-# youtube: RJNqqvleyaU
+youtube: 96W3fAx1L_8
 books:
   - name: Sjoerd en de Stapelstad
     image: images/sjoerd-en-de-stapelstad.jpg
@@ -21,4 +21,6 @@ books:
     description: Emma leest voor uit het boekje van Woezel & Pip
 ---
 
-Dinsdag 2 April habben we Barry Menger te gast die voorleest uit zijn eigen boek Sjoerd en de Stapelstad. En natuurlijk zijn Emma en Jorge ook van de partij!
+Dinsdag 2 April hadden we Barry Menger te gast die voorleest uit zijn eigen boek Sjoerd en de Stapelstad. En natuurlijk zijn Emma en Jorge ook van de partij!
+
+Wil jij een van de 3 boeken winnen van Sjoerd en de Stapel stad? [Download de kleurplaat](./images/kleurplaat.pdf), kleur hem in en stuur hem naar emma.vandenbosch@xebia.com en misschien win jij wel een exemplaar!
