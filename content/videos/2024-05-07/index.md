@@ -8,10 +8,10 @@ authors:
   - name: emma
 youtube: VsKgY1qPd64
 books:
-  - name: ?
-    image: images/dikkie-dik.jpg
-    description: Jorge leest voor uit het boek van Dikkie Dik.
-  - name: ?
-    image: images/dikkie-dik.jpg
-    description: Emma leest voor uit het boekje van Dikkie Dik.
+  - name: usborne - Kijk binnen in een vliegtuig
+    image: images/?.jpg
+    description: Jorge leest voor uit het boek van kijk binnen in een vliegtuig.
+  - name: Louis de schilderende olifant
+    image: images/?.jpg
+    description: Emma leest voor uit het boekje van Louis de schilderende olifant.
 ---
