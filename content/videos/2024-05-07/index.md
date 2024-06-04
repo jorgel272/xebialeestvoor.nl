@@ -8,7 +8,7 @@ authors:
   - name: emma
 youtube: VsKgY1qPd64
 books:
-  - name: usborne - Kijk binnen in een vliegtuig
+  - name: Kijk binnen in een vliegtuig - usborne
     image: images/?.jpg
     description: Jorge leest voor uit het boek van kijk binnen in een vliegtuig.
   - name: Louis de schilderende olifant
