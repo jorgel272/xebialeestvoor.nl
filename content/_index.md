@@ -1,6 +1,6 @@
 ---
 image: images/xebia-leest-voor.webp
-youtube: fJAqdKo70IM
+youtube: b3nIzIJmu6c
 ---
 
 # Xebia leest voor!
