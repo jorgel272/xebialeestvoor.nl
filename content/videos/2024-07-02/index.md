@@ -10,7 +10,7 @@ youtube: b3nIzIJmu6c
 books:
   - name: Eén voor jou, twee voor mij - Jorg Muhle
     image: images/?.jpg
-    description: Jorge leest voor uit het boek van Eén voor jou, twee voor mij.
+    description: Jorge leest voor uit het boek, Eén voor jou, twee voor mij.
   - name: De Nieuwe Kleren van de Keizer (1978) - Walt Disney Studio 
     image: images/?.jpg
     description: Emma leest voor uit het boek van De Nieuwe Kleren van de Keizer.
